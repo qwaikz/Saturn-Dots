@@ -1,0 +1,97 @@
+@import url("colors-matu.css");
+
+* {
+    font-family: "JetBrainsMono Nerd Font", "Roboto Condensed Medium";
+    font-size: 11px;
+
+
+}
+tooltip {
+    background: alpha(@background,0.8);
+}
+tooltip label {
+    color: @primary;
+}
+
+window#waybar {
+    background: alpha(@background, 0.8);
+    color: @primary
+}
+
+#custom-text {
+    padding: 0 0 0 0px;
+    font-size: medium;
+}
+
+#clock {
+    color: @secondary;
+    font-family: "Neue Machina";
+    padding: 5 0 0 10px;
+
+    font-weight: 600;
+    font-size: 19px;
+}
+
+#custom-sep {
+    color: @on_surface;
+    font-size: 16;
+}
+
+#workspaces {
+    border-radius: 0px;
+    margin: 0px;
+
+    border-color: alpha(@on_surface,0.6);
+}
+
+#workspaces button {
+    padding: 1px;
+    background-color: transparent;
+    color: @on_surface;
+    border-radius: 0px
+}
+
+#workspaces button.active {
+    transition: all 0.1ms cubic-bezier(0.46,0.03,0.52,0.96);;
+    border-radius: 5px;
+    margin-top: 5;
+    margin-bottom: 5;
+    padding-left: 5;
+    padding-right: 5;
+    background-color: @primary;
+    color: alpha(@background, 0.8);
+  
+}
+
+#workspaces button:hover {
+    color: @primary;
+  
+}
+
+#workspaces button.urgent {
+  color: @on_error;
+}
+#network {
+    font-size: 14;
+    color: @secondary;
+    font-family: "Material Symbols Outlined";
+    padding: 0 12 0 0px;
+}
+#bluetooth {
+    font-size: 14;
+    color: @secondary;
+    font-family: "Material Symbols Outlined";
+    padding: 0 12 0 0px;
+}
+#pulseaudio {
+    font-size: 14;
+    color: @secondary;
+    font-family: "Material Symbols Outlined";
+    padding: 0 12 0 0px;
+}
+#battery {
+    font-size: 14;
+    color: @secondary;
+    font-family: "Material Symbols Outlined";
+    padding: 0 12 0 0px;
+}

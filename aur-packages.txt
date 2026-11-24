@@ -1,0 +1,12 @@
+appimagelauncher
+cheatbreaker
+hyprmod
+oneclient-bin
+papirus-folders-git
+python-hyprland-config
+python-hyprland-monitors
+python-hyprland-schema
+python-hyprland-socket
+python-hyprland-state
+vicinae-bin
+yin-git
